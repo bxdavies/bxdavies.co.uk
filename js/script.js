@@ -1,5 +1,9 @@
-window.onload = function()
-{
+$(document).ready(function() {
+
+    // Start Page Pilling Plugin
+    $('#pagepiling').pagepiling();
+    
+    // Initialize Particles Plugin
     Particles.init(
     {
         selector: '.intro-background',
@@ -35,4 +39,4 @@ window.onload = function()
             }
         ]
     });
-}
+});
