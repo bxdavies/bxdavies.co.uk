@@ -81,10 +81,18 @@ h1, h2
 }
 
 /* Media Queries */
-/* Hide GitHub Stats Container if sreen is too small! */
+/* Hide GitHub Stats Container if the screen is too small! */
 @media only screen and (max-width: 600px) 
 {
     .github-container{
         display: none;
+    }
+}
+
+/* Remove 20% margin on smaller screens */
+@media only screen and (max-width: 600px) 
+{
+    .center{
+        margin: 0 0.1em;
     }
 }
